@@ -1,12 +1,36 @@
 div {
-  color: white;
-  background-color: salmon;
+  background-color: rgb(29, 29, 238);
   text-align: start;
-  border-radius: 30px;
   width: 500px;
-  height: 50px;
-  margin: 10px;
-  padding: 15px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 12px;
+  height: 500px;
+  margin: 20px;
+  padding-left: 150px;
+  font-family: "Comforter Brush", cursive;
+  font-size: 40px;
 }
+
+/* Selector de clase */
+.my-first-class {
+  font-size: 50px;
+}
+
+.color-white {
+  color: white;
+}
+
+/* Selector de id*/
+#parrafo1 {
+  background-color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de etiqueta*/
+/* section {
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+} */
