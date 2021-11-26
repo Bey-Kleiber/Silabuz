@@ -19,3 +19,18 @@ h2 {
 .datos-libro li {
   margin-bottom: 15px;
 }
+
+/*Una forma de resolver*/
+.datos-libro li:last-of-type {
+  margin-bottom: 0px;
+}
+
+/*Otra forma de resolver*/
+#ultimo-hijo {
+  margin-bottom: 0px;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
