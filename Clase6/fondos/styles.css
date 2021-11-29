@@ -1,0 +1,39 @@
+.fondo-div {
+  width: 1600px;
+  height: 800px;
+  background-color: blue;
+  /* background-image: url(images/God-of-War.jpeg); */
+  /* background-image: linear-gradient(
+    225deg,
+    #710201,
+    pink,
+    violet,
+    red,
+    blue,
+    green,
+    yellow
+  ); */
+  /* background-image: radial-gradient(
+    #410201,
+    pink,
+    violet,
+    red,
+    blue,
+    green,
+    yellow
+  ); */
+  background-image: url(images/Ben.jpeg), linear-gradient(45deg, black, white);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% 50%;
+  background-attachment: scroll;
+  color: white;
+  font-size: 50px;
+  /* filter: hue-rotate(45deg); */
+  /* background: blue url(images/God-of-War.jpeg) no-repeat fixed 0% 50%; */
+  /* opacity: 0.8; */
+}
+
+body {
+  height: 2000px;
+}
