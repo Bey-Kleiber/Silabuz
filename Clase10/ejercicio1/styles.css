@@ -1,0 +1,74 @@
+:root {
+  --fondoBody: rgb(195, 234, 248);
+  --fondoHeader: rgb(2, 190, 176);
+  --fondoArticle: rgb(250, 175, 76);
+  --fondoAside: rgb(110, 218, 110);
+  --fondoImage: rgb(251, 209, 74);
+  --marginElements: 20px;
+}
+
+body {
+  background-color: var(--fondoBody);
+  font-family: "Outfit", sans-serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer {
+  background-color: var(--fondoHeader);
+  height: 100px;
+  font-size: 35px;
+  margin: var(--marginElements);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--marginElements);
+}
+
+.aside,
+.article {
+  height: calc(100vh - 280px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside {
+  background-color: var(--fondoAside);
+  width: 33%;
+}
+
+.article {
+  background-color: var(--fondoArticle);
+  width: calc(100vw - 33%);
+  margin-left: var(--marginElements);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  background-color: var(--fondoImage);
+  width: 150px;
+  height: 150px;
+  margin: var(--marginElements);
+}
+
+.imagen-flex {
+  display: flex;
+}
